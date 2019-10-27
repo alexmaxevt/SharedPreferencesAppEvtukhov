@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initViews() {
-        mInputNote = (EditText) findViewById(R.id.inputNote);
-        mBtnSaveNote = (Button) findViewById(R.id.btnSaveNote);
+        mInputNote = findViewById(R.id.inputNote);
+        mBtnSaveNote = findViewById(R.id.btnSaveNote);
 
         myNoteSharedPref = getSharedPreferences("MyNote", MODE_PRIVATE);
 
